@@ -77,17 +77,17 @@ public class QuizApp {
         }
 
         // Final result
-        System.out.println("✅ Quiz Over!");
-        System.out.println("🎯 Your Score: " + score + " out of " + questions.length);
+        System.out.println(" Quiz Over!");
+        System.out.println(" Your Score: " + score + " out of " + questions.length);
 
         if (score == 20) {
-            System.out.println("🌟 Perfect! You're a Java Pro!");
+            System.out.println(" Perfect! You're a Java Pro!");
         } else if (score >= 15) {
-            System.out.println("👏 Great job! You know Java well.");
+            System.out.println(" Great job! You know Java well.");
         } else if (score >= 10) {
-            System.out.println("👍 Good attempt! Keep practicing.");
+            System.out.println(" Good attempt! Keep practicing.");
         } else {
-            System.out.println("📚 Keep learning! You'll get better.");
+            System.out.println(" Keep learning! You'll get better.");
         }
 
         sc.close();
